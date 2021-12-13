@@ -392,7 +392,7 @@ const degrees = {
 
 const certifications = {
   certifications: [
-    {
+    /* {
       title: "Machine Learning",
       subtitle: "- Andrew Ng",
       logo_path: "stanford_logo.png",
@@ -499,6 +499,72 @@ const certifications = {
         "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
       alt_name: "GCP",
       color_code: "#4285F499",
+    }, */
+    {
+      title: "Machine Learning",
+      subtitle: "- Andrew Ng",
+      logo_path: "stanford_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/certificate/AH5DM7KE5GJ7",
+      alt_name: "Stanford University",
+      color_code: "#8C151599",
+    },
+    {
+      title: "Mathematics for Machine Learning",
+      subtitle: "- David Dye",
+      logo_path: "imperial.jpg",
+      certificate_link: "https://www.coursera.org/account/accomplishments/specialization/certificate/2XJAL8Z8ACWM",
+      alt_name: "Imperial College London",
+      color_code: "#FFFFFF",
+    },
+    /* {
+      title: "",
+      subtitle: "",
+      logo_path: "",
+      certificate_link: "",
+      alt_name: "",
+      color_code: "",
+    }, */
+    {
+      title: "Full-Stack Web Development with React",
+      subtitle: "- Jogesh K. Muppala",
+      logo_path: "Hongkong.png",
+      certificate_link: "https://www.coursera.org/account/accomplishments/specialization/certificate/8Y67P7QYFV4T",
+      alt_name: "The Hong Kong University of Science and Technology",
+      color_code: "#FFFFFF",
+    },
+    {
+      title: "Google IT Automation with Python Professional Certificate",
+      subtitle: "- Google Career Certificates",
+      logo_path: "google_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/specialization/certificate/VQ9LMNSTTSJP",
+      alt_name: "Google",
+      color_code: "#0C9D5899",
+    },
+    {
+      title: "An Introduction to Programming the Internet of Things (IOT) Specialization",
+      subtitle: "- Ian Harris",
+      logo_path: "uci.png",
+      certificate_link: "https://www.coursera.org/account/accomplishments/specialization/certificate/Z8CZNVCF7HLD",
+      alt_name: "University of California, Irvine",
+      color_code: "#FFFFFF",
+    },
+    {
+      title: "Python for Everybody",
+      subtitle: "- Charles Russell Severance",
+      logo_path: "michigan.jpg",
+      certificate_link: "https://www.coursera.org/account/accomplishments/specialization/certificate/M3SWWAZ245YQ",
+      alt_name: "University of Michigan",
+      color_code: "#00274C",
+    },
+    {
+      title: "Data Structures and Algorithms",
+      subtitle: "- Alexander S. Kulikov",
+      logo_path: "ucsd.jpg",
+      certificate_link: "https://www.coursera.org/account/accomplishments/specialization/certificate/728Y4B2QZJQK",
+      alt_name: "University of California San Diego, HSE University",
+      color_code: "#FFFFFF",
     },
   ],
 };
@@ -676,7 +742,7 @@ const contactPageData = {
     subtitle:
       "#77, 8th Cross Sri Krishna Gardens, Rajarajeshwari Nagar, Bengaluru, Karnataka, India, 560098",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    location_map_link: "https://goo.gl/maps/qvVk9oHu7VEAiN1dA",
   },
   phoneSection: {
     title: "Phone Number",
