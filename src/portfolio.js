@@ -566,6 +566,30 @@ const certifications = {
       alt_name: "University of California San Diego, HSE University",
       color_code: "#FFFFFF",
     },
+    {
+      title: "HTML, CSS, and Javascript for Web Developers",
+      subtitle: "- Yaakov Chaikin",
+      logo_path: "johns.png",
+      certificate_link: "https://www.coursera.org/account/accomplishments/certificate/T9CJTV5TN8RB",
+      alt_name: "Johns Hopkins University",
+      color_code: "#FFFFFF",
+    },
+    {
+      title: "Julia Scientific Programming",
+      subtitle: "- Juan H klopper",
+      logo_path: "capetown.png",
+      certificate_link: "https://www.coursera.org/account/accomplishments/certificate/JYRBKLWG5HDV",
+      alt_name: "University of Cape Town",
+      color_code: "#FFFFFF",
+    },
+    {
+      title: "Kotlin for Java Developers",
+      subtitle: "- Andrey Breslav",
+      logo_path: "jetbrains.jpg",
+      certificate_link: "https://www.coursera.org/account/accomplishments/certificate/HCCSBSJA4Y4X",
+      alt_name: "JetBrains",
+      color_code: "#00000099",
+    },
   ],
 };
 
