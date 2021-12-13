@@ -377,7 +377,7 @@ const degrees = {
     {
       title: "Amrita Vishwa Vidyapeetham, Coimbatore, Tamil Nadu, India",
       subtitle: "B.Tech. in  Electical and Computer Engineering",
-      logo_path: "amrita.jpg",
+      logo_path: "amrita.png",
       alt_name: "Amrita School of Engineering, Ettimadai",
       duration: "2019 - Present",
       descriptions: [
