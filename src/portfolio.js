@@ -26,7 +26,7 @@ const greeting = {
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
     "https://drive.google.com/file/d/1tFGUmN86aWRxdVxd5r0O2t1vPqJls_x0/view?usp=sharing",
-  portfolio_repository: "https://github.com/TheGhoul27/Portfolio",
+  portfolio_repository: "https://github.com/TheGhoul27/MyPortfolio",
   githubProfile: "https://github.com/TheGhoul27",
 };
 
