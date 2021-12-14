@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Pradhumna Guruprasad Portfolio",
     type: "website",
-    //url: "http://ashutoshhathidara.com/",
+    url: "http://pradhumnaguruprasad.ml/",
   },
 };
 
