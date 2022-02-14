@@ -601,7 +601,7 @@ const experience = {
     "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
   header_image_path: "experience.svg",
   sections: [
-    {
+    /* {
       title: "Work",
       experiences: [
         {
@@ -725,6 +725,34 @@ const experience = {
           description:
             "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
           color: "#181717",
+        },
+      ],
+    }, */
+    {
+      title: "Internships",
+      experiences: [
+        {
+          title: "Associate Python/Django Developer Intern",
+          company: "Zummit Infolabs Pvt. Ltd.",
+          company_url: "https://zummitlabs.com/",
+          logo_path: "zummit.jpg",
+          duration: "Dec 2021 - Current",
+          location: "Work From Home",
+          description:
+            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
+          color: "#ee3c26",
+        },
+        {
+          title: "Data Science Intern",
+          company: "Quascendence Pvt. Ltd.",
+          company_url:
+            "https://quanscendence.com/",
+          logo_path: "quascendence.jpg",
+          duration: "Feb 2022 - Current",
+          location: "Work From Home",
+          description:
+            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
+          color: "#0071C5",
         },
       ],
     },
