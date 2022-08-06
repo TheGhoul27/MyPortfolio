@@ -65,6 +65,32 @@
                     "iconifyClass":"logos-python"
                 }
             ]
+        },
+        {
+            "id":"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",
+            "name":"Fake News Detection",
+            "createdAt":"2022-07-06T12:26:54Z",
+            "url":"https://theghoul27.github.io/PassManage/",
+            "description":"Complete description can be found in the website.",
+            "isFork":false,
+            "languages":[
+                {
+                    "name":"HTML",
+                    "iconifyClass":"logos-html-5"
+                },
+                {
+                    "name":"CSS",
+                    "iconifyClass":"logos-css-3"
+                },
+                {
+                    "name":"JavaScript",
+                    "iconifyClass":"logos-javascript"
+                }, 
+                {
+                    "name":"Python",
+                    "iconifyClass":"logos-python"
+                }
+            ]
         }
     ]
 }
