@@ -375,15 +375,25 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
+      title: "Tampere University, Tampere, Finland",
+      subtitle: "Exchange Student",
+      logo_path: "tampere.png",
+      alt_name: "Tampere Institute of Technology, Tampere",
+      duration: "January, 2023 - May, 2023",
+      descriptions: [
+      ],
+      website_link: "https://www.tuni.fi/en",
+    },
+    {
       title: "Amrita Vishwa Vidyapeetham, Coimbatore, Tamil Nadu, India",
       subtitle: "B.Tech. in  Electical and Computer Engineering",
       logo_path: "amrita.png",
       alt_name: "Amrita School of Engineering, Ettimadai",
-      duration: "2019 - Present",
+      duration: "July, 2019 - June, 2023",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
         "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I am in the top 1% in my batch.",
+        "⚡ I am the topper of the Department of Electrical and Electronics Engineering.",
       ],
       website_link: "https://amrita.edu/",
     },
@@ -732,15 +742,16 @@ const experience = {
       title: "Internships",
       experiences: [
         {
-          title: "Associate Python/Django Developer Intern",
-          company: "Zummit Infolabs Pvt. Ltd.",
-          company_url: "https://zummitlabs.com/",
-          logo_path: "zummit.jpg",
-          duration: "Dec 2021 - Current",
+          title: "Trainee",
+          company: "iMedrix Systems Pvt. Ltd.",
+          company_url:
+            "https://imedrix.com/",
+          logo_path: "imedrix.jpeg",
+          duration: "September, 2022 - Current",
           location: "Work From Home",
           description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-          color: "#ee3c26",
+            "",
+            color: "#181717",
         },
         {
           title: "Data Science Intern",
@@ -748,11 +759,22 @@ const experience = {
           company_url:
             "https://quanscendence.com/",
           logo_path: "quascendence.jpg",
-          duration: "Feb 2022 - Current",
+          duration: "February, 2022 - Current",
           location: "Work From Home",
           description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
+            "",
           color: "#0071C5",
+        },
+        {
+          title: "Associate Python/Django Developer Intern",
+          company: "Zummit Infolabs Pvt. Ltd.",
+          company_url: "https://zummitlabs.com/",
+          logo_path: "zummit.jpg",
+          duration: "December, 2021 - April, 2022",
+          location: "Work From Home",
+          description:
+            "",
+          color: "#ee3c26",
         },
       ],
     },
@@ -785,8 +807,8 @@ const contactPageData = {
   blogSection: {
     title: "Blogs",
     subtitle:
-      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://ashutoshhathidara.wordpress.com",
+      "In the future I shall be writing blogs about my journey. Stay tuned!!!",
+    link: "",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
