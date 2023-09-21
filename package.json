@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "MyPortfolio",
-  "homepage": "http://pradhumnaguruprasad.ml/",
+  "homepage": "https://theghoul27.github.io/MyPortfolio/",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",

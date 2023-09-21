@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Pradhumna Guruprasad Portfolio",
     type: "website",
-    url: "http://pradhumnaguruprasad.ml/",
+    url: "https://theghoul27.github.io/MyPortfolio/",
   },
 };
 
