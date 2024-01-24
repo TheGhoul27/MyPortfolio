@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1tFGUmN86aWRxdVxd5r0O2t1vPqJls_x0/view?usp=sharing",
+    "https://drive.google.com/file/d/1uB956kCR7rYw8UyauIHWfVNYUfGvCgzI/view?usp=sharing",
   portfolio_repository: "https://github.com/TheGhoul27/MyPortfolio",
   githubProfile: "https://github.com/TheGhoul27",
 };
@@ -374,6 +374,16 @@ const competitiveSites = {
 
 const degrees = {
   degrees: [
+    {
+      title: "Carnegie Mellon University, Pittsburgh, Pennsylvania, USA",
+      subtitle: "Masters in Electrical and Computer Engineering",
+      logo_path: "cmu.png",
+      alt_name: "Carnegie Institute of Technology, Pittsburgh",
+      duration: "January, 2024 - December, 2025 (Expected)",
+      descriptions: [
+      ],
+      website_link: "https://www.cmu.edu/",
+    },
     {
       title: "Tampere University, Tampere, Finland",
       subtitle: "Exchange Student",
