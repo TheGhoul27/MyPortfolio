@@ -1,77 +1,131 @@
 {
     "data":[
         {
-            "id":"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",
-            "name":"Password Manager",
-            "createdAt":"2020-03-06T16:26:54Z",
-            "url":"https://theghoul27.github.io/PassManage/",
-            "description":"Complete description can be found in the website.",
+            "id":"personalized_movie_recommendation",
+            "name":"Personalized Movie Recommendation System",
+            "createdAt":"2024-12-01T16:26:54Z",
+            "url":"https://github.com/TheGhoul27/movie-recommendation",
+            "description":"Built a scalable recommender system for 1M users and 27K movies, delivering top 20 movie lists within 800ms. Combined collaborative filtering and deep learning with automated model retraining via containerized CI/CD workflows. Deployed real-time monitoring with Prometheus and Grafana.",
             "isFork":false,
             "languages":[
                 {
-                    "name":"HTML",
-                    "iconifyClass":"logos-html-5"
-                },
-                {
-                    "name":"CSS",
-                    "iconifyClass":"logos-css-3"
-                },
-                {
-                    "name":"JavaScript",
-                    "iconifyClass":"logos-javascript"
-                }, 
-                {
                     "name":"Python",
                     "iconifyClass":"logos-python"
+                },
+                {
+                    "name":"PyTorch",
+                    "iconifyClass":"logos-pytorch"
+                },
+                {
+                    "name":"Docker",
+                    "iconifyClass":"logos-docker"
                 }
             ]
         },
         {
-            "id":"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",
-            "name":"URL Shortener",
-            "createdAt":"2022-02-10T17:15:00Z",
-            "url":"https://myshortnerurl.herokuapp.com/",
-            "description":"Complete description can be found in the website.",
+            "id":"latent_completion_networks",
+            "name":"Latent Completion Networks for Missing Modality Handling",
+            "createdAt":"2024-11-15T17:15:00Z",
+            "url":"https://github.com/TheGhoul27/latent-completion-networks",
+            "description":"Built a robust VAE architecture to infer missing modalities using a latent completion network and PoE fusion. Achieved a 12% improvement in SSIM over baselines (MVAE, MMVAE) on FashionMNIST under 50% missing data. Enabled uncertainty-aware generation using MC Dropout and variance regularization.",
             "isFork":false,
             "languages":[
                 {
-                    "name":"HTML",
-                    "iconifyClass":"logos-html-5"
-                },
-                {
-                    "name":"CSS",
-                    "iconifyClass":"logos-css-3"
-                },
-                {
-                    "name":"Bootstrap",
-                    "iconifyClass":"logos-bootstrap"
-                }, 
-                {
                     "name":"Python",
                     "iconifyClass":"logos-python"
+                },
+                {
+                    "name":"PyTorch",
+                    "iconifyClass":"logos-pytorch"
+                },
+                {
+                    "name":"TensorFlow",
+                    "iconifyClass":"logos-tensorflow"
                 }
             ]
         },
         {
-            "id":"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",
-            "name":"Stock Price Tracker",
-            "createdAt":"2022-02-13T10:00:00Z",
-            "url":"https://mystockprediction.herokuapp.com/",
-            "description":"Complete description can be found in the website.",
+            "id":"multimodal_skip_gram",
+            "name":"Efficient Multimodal Skip-Gram Learning",
+            "createdAt":"2024-10-20T10:00:00Z",
+            "url":"https://github.com/TheGhoul27/multimodal-skip-gram",
+            "description":"Designed a VQ-GAN + BEATs based audio-video representation learning model evaluated on VGGSound and UCF-101. Reached 85.67% accuracy on UCF-101 for action recognition using learned audio-visual embeddings. Reduced training time by 30% vs. transformer-based models with minimal tuning.",
             "isFork":false,
             "languages":[ 
                 {
                     "name":"Python",
                     "iconifyClass":"logos-python"
+                },
+                {
+                    "name":"PyTorch",
+                    "iconifyClass":"logos-pytorch"
                 }
             ]
         },
         {
-            "id":"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",
+            "id":"locally_connected_asr",
+            "name":"Locally Connected Layers for Robust Speech Models",
+            "createdAt":"2024-09-10T12:26:54Z",
+            "url":"https://github.com/TheGhoul27/locally-connected-asr",
+            "description":"Benchmarked Conformer ASR variants with locally untied convolutions on LibriSpeech. Replaced CNNs with locally connected layers, achieving a 3.61% WER on LibriSpeech test-clean and 15–20% reduction in adversarial error across noisy conditions vs. baseline Conformer.",
+            "isFork":false,
+            "languages":[
+                {
+                    "name":"Python",
+                    "iconifyClass":"logos-python"
+                },
+                {
+                    "name":"PyTorch",
+                    "iconifyClass":"logos-pytorch"
+                }
+            ]
+        },
+        {
+            "id":"emotion_classification_eeg",
+            "name":"Emotion Classification of EEG Signals",
+            "createdAt":"2023-05-15T14:30:00Z",
+            "url":"https://github.com/TheGhoul27/eeg-emotion-classification",
+            "description":"Extracted EEG features using Wavelet Transforms and reached 84.39% accuracy using Symbolic Regression for 4-class emotion prediction. Applied cross-validation across multiple participants to ensure subject-independent generalization of emotional state predictions.",
+            "isFork":false,
+            "languages":[
+                {
+                    "name":"Python",
+                    "iconifyClass":"logos-python"
+                },
+                {
+                    "name":"MATLAB",
+                    "iconifyClass":"simple-icons:matlab"
+                }
+            ]
+        },
+        {
+            "id":"fake_news_detection",
             "name":"Fake News Detection",
-            "createdAt":"2022-07-06T12:26:54Z",
+            "createdAt":"2023-03-20T12:26:54Z",
+            "url":"https://github.com/TheGhoul27/fake-news-detection",
+            "description":"Processed 10,000+ articles at 1000 articles/sec, detecting false stories with 98% (Hindi) and 93% (English) accuracy. Integrated linguistic and metadata-based features with a multi-language transformer pipeline for robust classification.",
+            "isFork":false,
+            "languages":[
+                {
+                    "name":"Python",
+                    "iconifyClass":"logos-python"
+                },
+                {
+                    "name":"TensorFlow",
+                    "iconifyClass":"logos-tensorflow"
+                },
+                {
+                    "name":"JavaScript",
+                    "iconifyClass":"logos-javascript"
+                }
+            ]
+        },
+        {
+            "id":"password_manager",
+            "name":"Password Manager",
+            "createdAt":"2022-08-10T16:26:54Z",
             "url":"https://theghoul27.github.io/PassManage/",
-            "description":"Complete description can be found in the website.",
+            "description":"Built a cross-platform desktop application using Flask and ElectronJS, featuring local encryption and XMLRPC-based API communication. Implemented secure password generation and strength assessment modules with category-based organization and search functionality.",
             "isFork":false,
             "languages":[
                 {

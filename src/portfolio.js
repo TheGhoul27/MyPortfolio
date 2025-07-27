@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Pradhumna's Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Graduate Research Assistant at Carnegie Mellon University specializing in Machine Learning, Computer Vision, and Deep Learning. Passionate about developing scalable AI solutions and conducting cutting-edge research in multimodal systems.",
   og: {
     title: "Pradhumna Guruprasad Portfolio",
     type: "website",
@@ -21,11 +21,11 @@ const seo = {
 const greeting = {
   title: "Pradhumna Guruprasad",
   logo_name: "PradhumnaGuruprasad",
-  nickname: "Paddu",
+  nickname: "Pradhumna",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A Graduate Research Assistant at Carnegie Mellon University specializing in Machine Learning, Computer Vision, and Deep Learning. Passionate about developing scalable AI solutions and conducting cutting-edge research in multimodal systems.",
   resumeLink:
-    "https://drive.google.com/file/d/1uB956kCR7rYw8UyauIHWfVNYUfGvCgzI/view?usp=sharing",
+    "https://drive.google.com/file/d/1ZGugHby9kPjl4DuuCs28kmA2F11zcb6l/view?usp=sharing",
   portfolio_repository: "https://github.com/TheGhoul27/MyPortfolio",
   githubProfile: "https://github.com/TheGhoul27",
 };
@@ -60,7 +60,7 @@ const socialMediaLinks = [
   },*/
   {
     name: "Gmail",
-    link: "mailto:guruprasadpradhumna@gmail.com",
+    link: "mailto:pgurupra@andrew.cmu.edu",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
@@ -90,29 +90,22 @@ const skills = {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Developing highly scalable production ready models for various deep learning and statistical use cases",
+        "⚡ Experience of working with Computer Vision, NLP, and Time Series Analysis projects",
+        "⚡ Complex quantitative modelling for dynamic forecasting and multimodal machine learning",
+        "⚡ Building robust VAE architectures and generative models for missing modality handling",
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "PyTorch",
+          fontAwesomeClassname: "logos-pytorch",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          skillName: "Tensorflow",
+          fontAwesomeClassname: "logos-tensorflow",
           style: {
             backgroundColor: "transparent",
           },
@@ -125,15 +118,32 @@ const skills = {
             color: "#3776AB",
           },
         },
+        {
+          skillName: "OpenCV",
+          fontAwesomeClassname: "simple-icons:opencv",
+          style: {
+            backgroundColor: "transparent",
+            color: "#5C3EE8",
+          },
+        },
+        {
+          skillName: "Scikit-learn",
+          fontAwesomeClassname: "simple-icons:scikitlearn",
+          style: {
+            backgroundColor: "transparent",
+            color: "#F7931E",
+          },
+        },
       ],
     },
     {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building resposive website front end using React",
-        "⚡ Developing cross platform applications using Electron Js, React Native and React Js",
-        "⚡ Creating application backend in Node.",
+        "⚡ Building responsive website front end using React and modern JavaScript frameworks",
+        "⚡ Developing cross platform applications using Electron Js, Flask, and FastAPI",
+        "⚡ Creating scalable backend systems with real-time monitoring using Prometheus and Grafana",
+        "⚡ Implementing CI/CD pipelines with Docker and containerized workflows",
       ],
       softwareSkills: [
         {
@@ -150,13 +160,6 @@ const skills = {
             color: "#1572B6",
           },
         },
-        /* {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        }, */
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
@@ -173,40 +176,26 @@ const skills = {
           },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          skillName: "Flask",
+          fontAwesomeClassname: "simple-icons:flask",
           style: {
-            color: "#339933",
+            color: "#000000",
           },
         },
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
+          skillName: "FastAPI",
+          fontAwesomeClassname: "simple-icons:fastapi",
           style: {
-            color: "#CB3837",
+            color: "#009688",
           },
         },
-        /* {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
           style: {
-            color: "#2C8EBB",
+            color: "#1488C6",
           },
-        }, */
-        /* {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        }, */
-        /* {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        }, */
+        },
         {
           skillName: "Electron Js",
           fontAwesomeClassname: "simple-icons:electron",
@@ -220,10 +209,10 @@ const skills = {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
+        "⚡ Experience working on multiple cloud platforms including AWS and Google Cloud",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Deploying deep learning models on cloud to use on mobile devices and real-time applications",
+        "⚡ Setting up CI/CD workflows and monitoring with Prometheus and Grafana",
       ],
       softwareSkills: [
         {
@@ -240,48 +229,41 @@ const skills = {
             color: "#FF9900",
           },
         },
-        /* {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        }, */
         {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        /* {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        }, */
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        /* {
           skillName: "Docker",
           fontAwesomeClassname: "simple-icons:docker",
           style: {
             color: "#1488C6",
           },
-        }, */
-        /* {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
+        },
+        {
+          skillName: "Jenkins",
+          fontAwesomeClassname: "simple-icons:jenkins",
           style: {
-            color: "#326CE5",
+            color: "#D24939",
           },
-        }, */
+        },
+        {
+          skillName: "Prometheus",
+          fontAwesomeClassname: "simple-icons:prometheus",
+          style: {
+            color: "#E6522C",
+          },
+        },
+        {
+          skillName: "Grafana",
+          fontAwesomeClassname: "simple-icons:grafana",
+          style: {
+            color: "#F46800",
+          },
+        },
+        {
+          skillName: "Git",
+          fontAwesomeClassname: "simple-icons:git",
+          style: {
+            color: "#F05032",
+          },
+        },
       ],
     },
     /* {
@@ -376,34 +358,39 @@ const degrees = {
   degrees: [
     {
       title: "Carnegie Mellon University, Pittsburgh, Pennsylvania, USA",
-      subtitle: "Masters in Electrical and Computer Engineering",
+      subtitle: "Master of Science in Electrical and Computer Engineering",
       logo_path: "cmu.png",
-      alt_name: "Carnegie Institute of Technology, Pittsburgh",
+      alt_name: "Carnegie Mellon University, Pittsburgh",
       duration: "January, 2024 - December, 2025 (Expected)",
       descriptions: [
+        "⚡ GPA: 3.96/4.0 - Currently pursuing advanced studies in deep learning and machine learning systems",
+        "⚡ Coursework: Introduction to Deep Learning, Machine Learning in Production, Embedded Deep Learning, Multimodal Machine Learning, Deep Generative Modeling",
+        "⚡ Inducted into IEEE-Eta Kappa Nu (Sigma Chapter) for academic and leadership excellence (April 2025)",
       ],
       website_link: "https://www.cmu.edu/",
     },
     {
       title: "Tampere University, Tampere, Finland",
-      subtitle: "Exchange Student",
+      subtitle: "International Exchange Scholar",
       logo_path: "tampere.png",
       alt_name: "Tampere Institute of Technology, Tampere",
       duration: "January, 2023 - May, 2023",
       descriptions: [
+        "⚡ GPA: 5.0/5.0 - Studied advanced computer vision and machine learning techniques",
+        "⚡ Coursework: Artificial Intelligence, Computer Vision, Deep Learning for Visual Computing, Machine Learning",
       ],
       website_link: "https://www.tuni.fi/en",
     },
     {
       title: "Amrita Vishwa Vidyapeetham, Coimbatore, Tamil Nadu, India",
-      subtitle: "B.Tech. in  Electical and Computer Engineering",
+      subtitle: "Bachelor of Technology in Electrical and Computer Engineering",
       logo_path: "amrita.png",
       alt_name: "Amrita School of Engineering, Ettimadai",
       duration: "July, 2019 - June, 2023",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I am the topper of the Department of Electrical and Electronics Engineering.",
+        "⚡ GPA: 9.14/10.0 - Graduated with Distinction and awarded Gold Medal for academic excellence",
+        "⚡ Coursework: Data Structures & Algorithms, Database Management Systems, Operating Systems, Computer Architecture, Artificial Intelligence",
+        "⚡ Conducted cutting-edge research in deep learning, computer vision, and signal processing",
       ],
       website_link: "https://amrita.edu/",
     },
@@ -616,46 +603,35 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Work, Internship and Research",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I have extensive experience as a Graduate Research Assistant at Carnegie Mellon University, working on cutting-edge AI and computer vision projects. My background spans machine learning engineering, data science, and full-stack development across healthcare, biotechnology, and enterprise applications. I'm passionate about developing scalable AI solutions that bridge the gap between research and real-world deployment.",
   header_image_path: "experience.svg",
   sections: [
-    /* {
-      title: "Work",
+    {
+      title: "Work Experience",
       experiences: [
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - PRESENT",
-          location: "Hyderabad, Telangana",
+          title: "Graduate Research Assistant",
+          company: "Carnegie Mellon University",
+          company_url: "https://www.cmu.edu/",
+          logo_path: "cmu.png",
+          duration: "February 2024 - Present",
+          location: "Pittsburgh, PA, USA",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "Leading multiple high-impact research projects in computer vision, augmented reality, and AI systems at one of the world's top research institutions. Successfully designed and deployed a comprehensive lab inventory management application that efficiently tracks over 500+ components and devices across multiple research teams, achieving an impressive 70% reduction in component retrieval time while dramatically improving stock visibility and resource allocation. Developed two sophisticated AR prototypes using cutting-edge AR glasses technology: the first prototype enables real-time retail product identification with seamless metadata overlay at sub-2-second latency, while the second features advanced face recognition capabilities through optimized local embedding lookup systems. Architected and implemented an end-to-end real-time face detection and recognition pipeline specifically optimized for humanoid robot applications, successfully reducing processing latency by 50% while maintaining consistent 30 fps performance during live demonstrations and public showcases. Currently spearheading the development of advanced super-resolution models that combine RUNet architecture with Generative Adversarial Networks (GANs), conducting comprehensive ablation studies and experiments to guide future multi-domain super-resolution research initiatives and establish new benchmarks in the field.",
           color: "#0879bf",
         },
         {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
+          title: "Machine Learning Engineer",
+          company: "iMedrix Systems Pvt. Ltd.",
+          company_url: "https://imedrix.com/",
+          logo_path: "imedrix.jpeg",
+          duration: "July 2023 - October 2023",
+          location: "Bangalore, KA, India",
           description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+            "Spearheaded the development of innovative machine learning solutions for next-generation healthcare applications, focusing on non-invasive vital sign monitoring technologies. Successfully implemented robust and scalable TensorFlow pipelines specifically designed for real-time blood pressure prediction using advanced Photoplethysmography (PPG) data analysis, significantly improving both model inference latency and system scalability for clinical deployment scenarios. Engineered and optimized four sophisticated signal-extraction algorithms tailored for processing and analyzing over 1,000+ high-quality PPG signals, substantially enriching the dataset quality and feature representation for complex supervised learning tasks. Designed, developed, and fine-tuned seven state-of-the-art deep learning models incorporating advanced attention mechanisms and novel architectural components, with the best-performing model achieving exceptional Mean Absolute Errors of 4.64 mmHg for Systolic Blood Pressure (SBP) and 2.18 mmHg for Diastolic Blood Pressure (DBP), surpassing industry benchmarks and enabling more accurate, reliable non-invasive blood pressure monitoring for clinical applications.",
           color: "#9b1578",
-        },
-        {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
-          description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
         },
       ],
     },
@@ -663,116 +639,25 @@ const experience = {
       title: "Internships",
       experiences: [
         {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
+          title: "Machine Learning Engineer Intern",
+          company: "iMedrix Systems Pvt. Ltd.",
+          company_url: "https://imedrix.com/",
+          logo_path: "imedrix.jpeg",
+          duration: "September 2022 - June 2023",
+          location: "Bangalore, KA, India",
           description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
+            "Conducted extensive research and development in biomedical signal processing and machine learning applications for healthcare technology. Systematically processed and analyzed over 1,000+ high-quality Photoplethysmography (PPG) signals using advanced statistical methodologies and cutting-edge machine learning techniques, successfully extracting 20+ comprehensive handcrafted features that capture critical physiological patterns and signal characteristics. Designed, implemented, and rigorously evaluated multiple machine learning models including Support Vector Machines (SVM), Gradient Boosting Trees (GBT), and logistic regression algorithms, with extensive hyperparameter optimization and cross-validation strategies. Achieved exceptional performance with the best-performing pipeline delivering Mean Squared Errors of 8.64 mmHg for Systolic Blood Pressure (SBP) and 5.78 mmHg for Diastolic Blood Pressure (DBP), demonstrating significant advancement in non-invasive blood pressure estimation accuracy and establishing a strong foundation for subsequent deep learning model development.",
           color: "#ee3c26",
         },
         {
           title: "Data Science Intern",
-          company: "Intel Indexer LLC",
-          company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
-          location: "Work From Home",
-          description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-          color: "#0071C5",
-        },
-      ],
-    },
-    {
-      title: "Volunteerships",
-      experiences: [
-        {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-          color: "#4285F4",
-        },
-        {
-          title: "Microsoft Student Partner",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-          color: "#D83B01",
-        },
-        {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
-          company_url: "https://www.mozilla.org/",
-          logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-          color: "#000000",
-        },
-        {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
-          company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-          color: "#0C9D58",
-        },
-        {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
-          location: "Work From Home",
-          description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-          color: "#181717",
-        },
-      ],
-    }, */
-    {
-      title: "Internships",
-      experiences: [
-        {
-          title: "Trainee",
-          company: "iMedrix Systems Pvt. Ltd.",
-          company_url:
-            "https://imedrix.com/",
-          logo_path: "imedrix.jpeg",
-          duration: "September, 2022 - Current",
-          location: "Work From Home",
-          description:
-            "",
-            color: "#181717",
-        },
-        {
-          title: "Data Science Intern",
-          company: "Quascendence Pvt. Ltd.",
-          company_url:
-            "https://quanscendence.com/",
+          company: "Quanscendence Technologies Pvt. Ltd.",
+          company_url: "https://quanscendence.com/",
           logo_path: "quascendence.jpg",
-          duration: "February, 2022 - Current",
-          location: "Work From Home",
+          duration: "February 2022 - April 2023",
+          location: "Bangalore, KA, India",
           description:
-            "",
+            "Pioneered innovative AI-driven solutions for enterprise document processing and talent assessment systems, contributing to the advancement of automated recruitment technologies. Successfully architected and developed a sophisticated Convolutional Neural Network (CNN) based skill-scoring model operating on a comprehensive 0-5 scale, capable of intelligently parsing and evaluating over 5,000+ professional résumé PDFs with high accuracy and consistency. Implemented advanced reinforcement learning techniques with carefully designed reward mechanisms, achieving a substantial 15% improvement in scoring accuracy and establishing more reliable candidate assessment metrics. Developed and deployed robust GDPR-compliant redaction algorithms incorporating state-of-the-art natural language processing and computer vision techniques, successfully masking 100% of Personally Identifiable Information (PII) across 2,000+ sensitive documents while maintaining exceptional processing speeds of 20 documents per minute, ensuring complete privacy compliance and data protection standards for enterprise clients.",
           color: "#0071C5",
         },
         {
@@ -780,10 +665,10 @@ const experience = {
           company: "Zummit Infolabs Pvt. Ltd.",
           company_url: "https://zummitlabs.com/",
           logo_path: "zummit.jpg",
-          duration: "December, 2021 - April, 2022",
-          location: "Work From Home",
+          duration: "December 2021 - April 2022",
+          location: "Bangalore Urban, Karnataka, India · Remote",
           description:
-            "",
+            "Gained comprehensive experience in full-stack web development while contributing to diverse, impactful projects spanning enterprise workflow optimization, biotechnology applications, and machine learning showcases. Successfully architected and developed a sophisticated task management system featuring advanced progress tracking capabilities, intelligent assignment prioritization algorithms, and comprehensive workflow automation, resulting in a measurable 15% improvement in internal operational efficiency and significantly enhanced team collaboration. Designed and implemented a powerful, searchable enzyme database system for a specialized biotechnology client, incorporating advanced filtering mechanisms, optimized query processing, and intuitive user interface design, enabling streamlined lookup and analysis of complex biological compounds and significantly accelerating research workflows. Created and deployed a comprehensive project showcase website specifically designed for the Machine Learning team, featuring interactive model demonstrations, detailed performance analytics, and sophisticated visualization components highlighting cutting-edge models focused on medical diagnostics including innovative cancer detection algorithms. Utilized a robust technology stack including Python, Django, HTML/CSS, JavaScript, and PostgreSQL to deliver scalable, maintainable solutions.",
           color: "#ee3c26",
         },
       ],
@@ -795,7 +680,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects span cutting-edge research in machine learning, computer vision, and multimodal systems. I specialize in developing scalable AI solutions, from AR applications and real-time video processing to advanced deep learning models for healthcare and recommendation systems.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -812,7 +697,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "animated_pradhumna.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, Computer Vision, Deep Learning, and Research in Multimodal Systems.",
   },
   blogSection: {
     title: "Blogs",
@@ -824,13 +709,13 @@ const contactPageData = {
   addressSection: {
     title: "Address",
     subtitle:
-      "#77, 8th Cross Sri Krishna Gardens, Rajarajeshwari Nagar, Bengaluru, Karnataka, India, 560098",
+      "Pittsburgh, PA, USA",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/qvVk9oHu7VEAiN1dA",
+    location_map_link: "https://goo.gl/maps/YMJ9pkAaGaL2",
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+91 9035453910",
+    subtitle: "+1 (412) 214-2576",
   },
 };
 

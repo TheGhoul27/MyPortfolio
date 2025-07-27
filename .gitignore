@@ -5,6 +5,7 @@
 /.pnp
 /build
 .pnp.js
+.venv/
 
 # testing
 /coverage
